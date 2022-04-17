@@ -1,0 +1,60 @@
+.navbar{
+    max-width: 100%;
+    
+    background: var(--color-card);
+    height: 80px;
+    padding: 0 15px;
+
+    font-family: 'Poppins', sans-serif;
+
+    box-shadow:
+        0 0 0 1px rgb(255 255 255 / 10%),
+        0 3px 2px rgb(0 0 0 / 4%),
+        0 7px 5px rgb(0 0 0 / 2%),
+        0 13px 10px rgb(0 0 0 / 2%),
+        0 22px 17px rgb(0 0 0 / 2%);
+}
+.navbar-header{
+    max-width: 1200px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand img{
+    height: 50px;
+    margin: 15px 0 10px 10px;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-nav li{
+    list-style: none;
+    margin: 10px 10px 15px 0px;
+    padding: 5px;
+}
+.navbar-nav li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+/* 
+logo rotate
+ */
+
+ .Nav-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+ @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

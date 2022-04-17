@@ -1,0 +1,17 @@
+import React from 'react'
+import NavBar from '../components/NavBar/NavBar'
+import Footer from '../components/Footer/Footer'
+import Pokedex from '../components/Pokedex/Pokedex'
+
+const PokedexPage = () => {
+  return (
+    <>
+      <NavBar />
+      <Pokedex />
+      <Footer />
+      
+    </>
+  )
+}
+
+export default PokedexPage

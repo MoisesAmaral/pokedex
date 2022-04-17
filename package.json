@@ -1,0 +1,30 @@
+{
+  "name": "pokedesk",
+  "private": true,
+  "version": "1.0",
+  "description": "Pokedex desenvolvida com a lib ReactJS, a fim de desenvolver meus conhecimentos em ReactJS.",
+  "author": "MoisesDev",
+  "date": "15/04/2022",
+  "contacts": {
+    "email": "moises.amaraladm@gmail.com",
+    "github": "https://github.com/moisesamaral",
+    "linkedin": "https://www.linkedin.com/in/moises-moreira-557346183/"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.4",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.2"
+  }
+}

@@ -1,0 +1,21 @@
+.constructor{
+    width: 100%;
+    height: 100%;
+    margin-top: 250px;
+}
+.constructor h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  
+}
+.constructor p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+}
